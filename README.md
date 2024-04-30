@@ -4,6 +4,34 @@ Vue3 + element-plus + jszip + OpenLayers
 
 此项目在UI部分基于项目：[xiaolidan00/offline-map-download: 纯前端离线瓦片地图下载 (github.com)](https://github.com/xiaolidan00/offline-map-download)的UI进行修改
 
+## 使用
+
+此项目的在线地址为：[在线瓦片地图下载](https://zhnny.github.io/online-map-download/)
+
+打开网站，输入XYZ瓦片的地址（默认的是ArcGIS的在线遥感影像），然后点击加载瓦片
+
+![image-20240430131459052](https://s2.loli.net/2024/04/30/wutUQd2ABvocK4i.png)
+
+点击“划范围”，然后开始绘制多边形，双击完成绘制，自动计算瓦片范围（红色矩形部分）
+
+![image-20240430131526197](https://s2.loli.net/2024/04/30/59yfLFeSZ4BN6uj.png)
+
+点击“下载”，打开下载信息界面，勾选需要下载的级别
+
+![image-20240430131556040](https://s2.loli.net/2024/04/30/mCO5hxk7rDcpP9s.png)
+
+点击下载，弹出信息提示框
+
+![image-20240430131619333](https://s2.loli.net/2024/04/30/MLXOosjbyEatWlT.png)
+
+开始下载，等待下载完成
+
+![image-20240430131659188](https://s2.loli.net/2024/04/30/lKpCcnyWIfjRzQr.png)
+
+下载完成，打开压缩包查看瓦片
+
+![image-20240430131732990](https://s2.loli.net/2024/04/30/bwmFfvtX48MT9zs.png)
+
 ### 核心代码
 
 ```javascript
